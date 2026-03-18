@@ -25,13 +25,25 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 left-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
+        Slide 4 — Meme Break 🔥
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-8 px-6">
+        <div className="bg-black/70 backdrop-blur-sm border border-white/20 rounded-2xl p-6 max-w-lg text-center">
+          <p className="text-white text-4xl font-black mb-3">MELLSTROY</p>
+          <p className="text-white/80 text-lg">когда узнал, что в Японии есть аниме-кафе на каждом углу</p>
+          <p className="text-yellow-400 text-5xl mt-4">👁️👄👁️</p>
+        </div>
+        <div className="bg-black/70 backdrop-blur-sm border border-white/20 rounded-2xl p-6 max-w-lg text-center">
+          <p className="text-white/70 text-sm uppercase tracking-wide mb-2">Mellstroy after visiting Japan</p>
+          <p className="text-white text-2xl font-bold">"я остаюсь. всё. прощайте."</p>
+          <p className="text-white/50 text-sm mt-2">— probably Mellstroy, 2024</p>
+        </div>
+      </div>
+
+      <p className="absolute bottom-8 right-6 text-white/60 text-base z-10 uppercase tracking-widest">
+        Based on real events
       </p>
     </div>
   );

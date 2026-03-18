@@ -25,13 +25,21 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-4" style={{textShadow: "0 2px 20px rgba(0,0,0,0.7)"}}>
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-80">My Dream Trip</p>
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight mb-6 leading-none">
+          JAPAN
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-2xl max-w-2xl mx-auto opacity-90 font-light">
+          The Land of the Rising Sun
         </p>
+        <div className="mt-8 flex justify-center gap-6 text-sm opacity-70 uppercase tracking-widest">
+          <span>Tokyo</span>
+          <span>·</span>
+          <span>Kyoto</span>
+          <span>·</span>
+          <span>Osaka</span>
+        </div>
       </div>
     </div>
   );
